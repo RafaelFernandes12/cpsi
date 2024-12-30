@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p,
+span,
+h1,
+h2,
+h3,
+div,
+main,
+section {
+  opacity: 100;
+  --bc: #fff;
+  text-shadow: 0 0 0 var(--bc);
+  color: black;
+}
